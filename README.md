@@ -1,5 +1,5 @@
 # Twitter-Clone-API
-twitter-clone
+
 This is a twitter-clone backend application made on top of Spring Boot, a Java framework. To run this application the following requirements are needed:
 
 JDK 1.8 or more
