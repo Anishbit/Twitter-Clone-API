@@ -1,30 +1,34 @@
 # Twitter-Clone-API
 
-This is a twitter-clone backend application made on top of Spring Boot, a Java framework. To run this application the following requirements are needed:
-
-JDK 1.8 or more
-Spring Boot framework compatible IDE.
-Postman or any other API testing tool.
-In memory SQL Database: H2
-Functionalities along with APIs:
-
-User Registration: /register
-Request Type: POST
-Sample POST Request Body:
-  {
-      "userName": "Anish",
-      "password": "tweet@123",
-      "fullName":"Anish Kumar"
-  }
+This is a _twitter-clone_ backend application made on top of _Spring Boot_, a Java framework.
+To run this application the following requirements are needed:
+   * JDK 1.8 or more
+   * Spring Boot framework compatible IDE.
+   * Postman or any other API testing tool.
+   * In memory SQL Database: H2
   
-LogIn: /login
-Request Type: POST
-Sample POST Request Body:
-  {
-      "userName": "Anish",
-      "password": "tweet@123"
-  }
-  
-LogOut: /logout
-Request Type: POST
-Sample POST Request Body.
+ **Functionalities along with APIs**:
+  1. User Registration: _/register_
+        1. Request Type: POST
+        2. Sample POST Request Body:
+            ```js
+            
+              {
+                  "userName": "Anish",
+                  "password": "tweet@123",
+                  "fullName":"Anish Kumar"
+              }
+            ```
+   2. LogIn: _/login_
+        1. Request Type: POST
+        2. Sample POST Request Body:
+            ```js
+            
+              {
+                  "userName": "Anish",
+                  "password": "tweet@123"
+              }
+            ```
+   3. LogOut: _/logout_
+        1. Request Type: POST
+        2. Sample POST Request Body.
