@@ -12,17 +12,19 @@ User Registration: /register
 Request Type: POST
 Sample POST Request Body:
   {
-      "userName": "shraban",
+      "userName": "Anish",
       "password": "tweet@123",
-      "fullName":"Shraban Karmakar"
+      "fullName":"Anish Kumar"
   }
+  
 LogIn: /login
 Request Type: POST
 Sample POST Request Body:
   {
-      "userName": "shraban",
+      "userName": "Anish",
       "password": "tweet@123"
   }
+  
 LogOut: /logout
 Request Type: POST
 Sample POST Request Body.
