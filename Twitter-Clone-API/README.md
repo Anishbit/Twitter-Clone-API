@@ -14,9 +14,9 @@ To run this application the following requirements are needed:
             ```js
             
               {
-                  "userName": "shraban",
+                  "userName": "Anish",
                   "password": "tweet@123",
-                  "fullName":"Shraban Karmakar"
+                  "fullName":"Anish Kumar"
               }
             ```
    2. LogIn: _/login_
@@ -25,7 +25,7 @@ To run this application the following requirements are needed:
             ```js
             
               {
-                  "userName": "shraban",
+                  "userName": "Anish",
                   "password": "tweet@123"
               }
             ```
